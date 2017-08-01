@@ -9,7 +9,7 @@ export class WeatherService {
   searchUrl: string;
 
   constructor(private _http: Http) {
-    this.apiKey = '6d2815d6708948eb';
+    this.apiKey = 'API_KEY';
     this.conditionsUrl = 'http://api.wunderground.com/api/' + this.apiKey + '/conditions/q';
     this.searchUrl = 'http://localhost:8101/search/aq?query=';
   }
