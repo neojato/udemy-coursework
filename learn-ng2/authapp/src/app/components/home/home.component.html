@@ -1,0 +1,6 @@
+<p>
+  Welcome!
+</p>
+
+<h5 *ngIf="_authService.isAuthenticated()">You are logged in</h5>
+<h5 *ngIf="!_authService.isAuthenticated()">You are not logged in, please click the login button above</h5>
