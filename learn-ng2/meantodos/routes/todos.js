@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var mongojs = require('mongojs');
-var db = mongojs('mongodb://kyle:kyle@ds121543.mlab.com:21543/meantodos_trinominis_dev', ['todos']);
+var db = mongojs('mongodb://USERNAME:PASSWORD@PROJECT_ID.mlab.com:21543/COLLECTION', ['todos']);
 
 // Get Todos
 router.get('/todos', function (req, res, next) {
