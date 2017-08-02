@@ -1,0 +1,11 @@
+.navbar {
+  margin-bottom: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.movies-listing > .row > .col-md-2:nth-child(6n+1) {
+    clear: both;
+}
